@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif; 
+}
+h1 {
+	margin-bottom: 15px;
+  text-align: center;
+}
+
+div#container {
+	background-color: #DBDBDB; 
+	position:relative;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	height: 100px;
+  padding: 20px;
+
+
+}
+p {
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+  text-align: center;
+ 
+  
+}
+#p1 {
+	background-color: #FF7285;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+ 
+
+}
+#p2 {
+	background-color: #B8FFBF;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#p3 {
+	background-color: #BED8F7;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}

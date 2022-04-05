@@ -1,170 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tara's Week 2 Solution Page</title>
-<style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif; 
-}
-h1 {
-  margin-bottom: 15px;
-}
-
-div#container1 {
-  background-color: #DBDBDB; 
-  position:relative;
-   border: 1px solid black;
-   margin-bottom: 15px;
-  height: 50px;
-  
-
-}
-div#container2 {
-  background-color: #DBDBDB; 
-  position:relative;
-   border: 1px solid black;
-   margin-bottom: 15px;
-    height: 50px;
-
-}
-div#container3 {
-  background-color: #DBDBDB; 
-  position:relative;
-   border: 1px solid black;
-   margin-bottom: 15px;
-  height: 50px;
-  
-}
-p {
-  width: 100px;
-  height: 20px;
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-#p1 {
-  background-color: #FF7285;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  
-}
-#p2 {
-  background-color: #B8FFBF;
-   position: absolute;
-  top: 0px;
-  right: 0px;
-}
-#p3 {
-  background-color: #BED8F7;
-   position: absolute;
-  top: 0px;
-  right: 0px;
-}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tara's Week 2 Solution Page</title>
+	<link rel="stylesheet" href="style.css">
+	<Style>
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%; 
+	width: 100%; 
 }
-  
-  /*** Large devices ***/
-@media (min-width: 992px) {
-  .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12 {
-    float: left;
-  } 
 
-  .col-lg-3 {
-    width: 25%;    
-  } 
-  .col-lg-4 {
-    width: 33.33%;    
-  }  
-  .col-lg-6 {
-    width: 50%;    
-  }
-  .col-lg-12 {
-    width: 100%;    
-  }
-  
-  
+/*** Large devices ***/
+@media (min-width: 992px) {
+	.col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12 {
+		float: left;
+		padding: 5px;
+	} 
+
+	.col-lg-3 {
+		width: 25%;    
+	} 
+	.col-lg-4 {
+		width: 33.33%;    
+	}  
+	.col-lg-6 {
+		width: 50%;    
+	}
+	.col-lg-12 {
+		width: 100%;    
+	}
+
 }
 
 /*** Medium devices ***/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-3, .col-md-4, .col-md-6, .col-md-12 {
-    float: left;
-  } 
+	.col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+		float: left;
+		padding: 5px
+	} 
 
-  .col-md-3 {
-    width: 25%;    
-  } 
-  .col-md-4 {
-    width: 33.33%;    
-  }  
-  .col-md-6 {
-    width: 50%;    
-  }
-  .col-md-12 {
-    width: 100%;    
-  }
+	.col-md-3 {
+		width: 25%;    
+	} 
+	.col-md-4 {
+		width: 33.33%;    
+	}  
+	.col-md-6 {
+		width: 50%;    
+	}
+	.col-md-12 {
+		width: 100%;    
+	}
 }
 
 /*** Mobile devices ***/
 @media (max-width: 767px) { 
- .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-12 {
-    float: left;
-  } 
+	.col-xs-3, .col-xs-4, .col-xs-6, .col-xs-12 {
+		float: left;
+		padding: 5px;
+	} 
 
-  .col-xs-3 {
-    width: 25%;    
-  } 
-  .col-xs-4 {
-    width: 33.33%;    
-  }  
-  .col-xs-6 {
-    width: 50%;    
-  }
-  .col-xs-12 {
-    width: 100%;    
-  }
-  
+	.col-xs-3 {
+		width: 25%;    
+	} 
+	.col-xs-4 {
+		width: 33.33%;    
+	}  
+	.col-xs-6 {
+		width: 50%;    
+	}
+	.col-xs-12 {
+		width: 100%;    
+	}
+
 }
-
-
-
 </style>
 </head>
 <body>
-<h1>The Lord of the Rings Trilogy</h1>
+	<h1>Our Menu</h1>
 
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-xs-12">
-    <div id="container1">
-      <p id="p1"> Film 1</p> The Fellowship of the Ring 
-    </div>
-  </div>
+	<div class="row">
+		<div class="col-lg-4 col-md-6 col-xs-12">
+			<div id="container">
+				<p id="p1"> Chicken </p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing.
+			</div>
+		</div>
 
-  <div class="col-lg-4 col-md-6 col-xs-12">
-    <div id="container2">
-      <p id="p2"> Film 2</p> The Two Towers  
-    </div>
-  </div>
+		<div class="col-lg-4 col-md-6 col-xs-12">
+			<div id="container">
+				<p id="p2"> Beef </p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam faucibus.  
+			</div>
+		</div>
 
-  <div class="col-lg-4 col-md-12 col-xs-12">
-    <div id="container3">
-      <p id="p3">Film 3</p>Return of the King
-    </div>
-  </div>
-</div> 
-
-
-
-
-
+		<div class="col-lg-4 col-md-12 col-xs-12">
+			<div id="container">
+				<p id="p3">Sushi</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue nisi vitae suscipit tellus mauris a diam maecenas sed.
+			</div>
+		</div>
+	</div> 
 </body>
 </html>
